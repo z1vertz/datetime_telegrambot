@@ -15,7 +15,7 @@ def get(num):
     result = cur.fetchall()
     return result
 
-TOKEN = '6120866869:AAHhx1yCQs3MjBiLEaYFwyiS8nYfTxhAFl0'
+TOKEN = 'TOKEN'
 
 bot = telebot.TeleBot(TOKEN)
 
